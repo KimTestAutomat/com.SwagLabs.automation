@@ -7,7 +7,7 @@ Feature: Authentification to app SwagLabs
     Given Je me connecte to the app "https://www.saucedemo.com/"
     When Je saisis le username "<username>" et le password "<password>"
     And Je clique sur le bouton LOGIN
-    Then Je me redirige vers la page "Products"
+    Then Je me redirige vers la page "PRODUCTS"
 
     Examples: 
       | username                | password     |

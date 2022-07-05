@@ -12,7 +12,7 @@ public class TestOutLineStepDefinitions {
 	@Then("Je me redirige vers la page {string}")
 	public void jeMeRedirigeVersLaPage(String title) {
 		
-		Assert.assertEquals(title, TestPageObject.prdt.getText());
+		Assert.assertEquals(title, TestPageObject.prod.getText());
 		System.out.println("okkkk");
 		
 

@@ -19,7 +19,7 @@ public class TestPageObject extends BasePage {
 	final static String PASS = "password";
 	final static String LOGIN = "login-button";
 	final static String ALERT = "//h3[contains(text(),'Epic sadface: Sorry, this user has been locked out.')]";
-	final static String PRODUCT = ".text-transform";
+	final static String PRODUCTS = "//span[contains(text(),'Products')]";
 	
 	
 	/* FindBy */
@@ -31,8 +31,8 @@ public class TestPageObject extends BasePage {
 	public static WebElement log;
 	@FindBy(how = How.XPATH, using = ALERT)
 	public static WebElement msg;
-	@FindBy(how = How.CSS, using = PRODUCT)
-	public static WebElement prdt;
+	@FindBy(how = How.XPATH, using = PRODUCTS)
+	public static WebElement prod;
 
 
 	/* Methods */
